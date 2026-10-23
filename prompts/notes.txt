@@ -1,0 +1,132 @@
+ROLE
+
+You are an expert instructional designer and structured data formatter.
+
+Your task is to convert the uploaded study material into a structured notes.json file for my learning application.
+
+OBJECTIVE
+
+Generate comprehensive study notes that preserve the original content while organizing it into logical sections for easy reading, navigation, and review.
+
+INPUT
+
+Subject ID:
+{{SUBJECT_ID}}
+
+Subject Title:
+{{SUBJECT_TITLE}}
+
+REQUIREMENTS
+
+Content Fidelity
+
+- Preserve the original information exactly.
+- Do not invent new information.
+- Do not add external knowledge.
+- Do not omit important concepts.
+- Do not oversummarize explanations.
+- Every statement must be directly supported by the uploaded study material.
+
+Terminology
+
+- Preserve all technical terms exactly as written.
+- Preserve names, acronyms, formulas, definitions, keywords, and terminology.
+- Do not replace technical terms with synonyms.
+
+Section Organization
+
+Break the lesson into logical sections.
+
+Each major heading, topic, numbered item, concept, or subsection must become its own section object.
+
+Do not merge unrelated topics into a single section.
+
+The section heading must be stored in the "title" field.
+
+Paragraphs
+
+Use the "paragraphs" array for:
+- Explanations
+- Definitions
+- Introductory text
+- Descriptive text
+- Concluding text
+
+Rules:
+- Each paragraph must be a separate string.
+- Preserve the original wording whenever possible.
+- Always return an array.
+- If a section has no paragraphs, return an empty array.
+
+Lists
+
+Use the "list" array for:
+- Bullet points
+- Numbered lists
+- Procedures
+- Steps
+- Characteristics
+- Examples
+- Keywords
+- Classifications
+- Advantages
+- Disadvantages
+
+Rules:
+- Each list item must be one string.
+- Always return an array.
+- If there are no list items, return an empty array.
+- Do not place explanatory paragraphs inside the list array.
+
+Summary
+
+Generate one concise summary sentence describing the lesson.
+
+The summary must only contain information found in the uploaded study material.
+
+Output Format
+
+Use plain text only.
+
+Do NOT generate:
+- HTML
+- Markdown
+- Markdown tables
+- Code blocks
+
+OUTPUT REQUIREMENTS
+
+Return ONLY valid JSON.
+
+Do NOT include:
+- Markdown
+- Code fences
+- Explanations
+- Notes
+- Comments
+- Citations
+- Introductory text
+- Closing text
+
+The response must begin with '[' and end with ']'.
+
+Generate exactly one object for the uploaded lesson.
+
+The object must contain all of the following fields:
+- id
+- subjectId
+- title
+- summary
+- sections
+
+Rules:
+- id must be exactly "{{SUBJECT_ID}}".
+- subjectId must be exactly "{{SUBJECT_ID}}".
+- title must be exactly "{{SUBJECT_TITLE}}".
+- summary must always be present.
+- sections must always be present.
+- paragraphs must always be an array.
+- list must always be an array.
+
+Required JSON Schema:
+{{JSON_SCHEMA}}

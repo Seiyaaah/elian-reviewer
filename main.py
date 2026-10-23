@@ -1,62 +1,69 @@
+import asyncio
+import traceback
+
 from cli.menu import run_cli
-from automation.browser import BrowserManager
+
 from automation.notebooklm import NotebookLM
+from automation.pipeline import ReviewPipeline
 
 
-def main():
-    # Get user configuration
-    config = run_cli()
-
-    # Connect to Chrome
-    browser = BrowserManager()
-    browser.start()
-    print("✅ Connected to Chrome")
+async def main(config):
+    notebook = NotebookLM()
 
     try:
-        notebook = NotebookLM(browser.page)
+        # --------------------------------------------------
+        # Connect
+        # --------------------------------------------------
 
-        # ----------------------------
-        # Open NotebookLM
-        # ----------------------------
-        print("\n🌐 Opening NotebookLM...")
-        notebook.open()
-        print("✅ NotebookLM opened")
+        print("\n🔐 Connecting to NotebookLM...")
+        await notebook.connect()
+        print("✅ Connected")
 
-        # ----------------------------
-        # Create notebook
-        # ----------------------------
+        # --------------------------------------------------
+        # Create Notebook
+        # --------------------------------------------------
+
         print("\n📔 Creating notebook...")
-        notebook.create_notebook()
+        await notebook.create_notebook("Reviewer")
         print("✅ Notebook created")
 
-        # ----------------------------
-        # Add sources
-        # ----------------------------
-        print("\n📂 Opening Sources...")
-        notebook.open_sources()
+        # --------------------------------------------------
+        # Upload Sources
+        # --------------------------------------------------
 
-        print("➕ Opening Add Sources...")
-        notebook.click_add_sources()
+        print("\n📤 Uploading source files...")
+        await notebook.upload_source_files(config.source_files)
+        print("✅ Upload complete")
 
-        print("📤 Uploading source files...")
-        notebook.upload_files()
-        notebook.upload_source_files(config.source_files)
-        print("✅ Source files uploaded")
+        # --------------------------------------------------
+        # Pipeline
+        # --------------------------------------------------
 
-        # ----------------------------
-        # Debug (temporary)
-        # ----------------------------
-        # notebook.debug_buttons()
+        print("\n🚀 Starting Review Pipeline...")
 
-        print("\nConfiguration:")
-        print(config.model_dump())
+        pipeline = ReviewPipeline(
+            notebook=notebook,
+            config=config,
+        )
 
-        input("\nPress Enter to close...")
+        await pipeline.run()
+
+        print("\n🎉 Review generation completed!")
+
+    except Exception as e:
+        print("\n❌ Pipeline failed!")
+        print(f"\n{type(e).__name__}: {e}\n")
+        traceback.print_exc()
 
     finally:
-        browser.close()
-        print("👋 Browser disconnected")
+        try:
+            await notebook.close()
+        except Exception:
+            pass
+
+        print("\n👋 Disconnected")
 
 
 if __name__ == "__main__":
-    main()
+    config = run_cli()
+    asyncio.run(main(config))

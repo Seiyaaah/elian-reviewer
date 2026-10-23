@@ -1,8 +1,14 @@
+from pathlib import Path
+
 from pydantic import BaseModel
 
 
 class ReviewerConfig(BaseModel):
-    question_type: str
-    question_count: str
-    source_files: list[str]
-    output_folder: str
+    subject_count: int
+
+    # Multiple selected question types
+    question_types: list[str]
+    question_count: int
+
+    source_files: list[Path]
+    output_folder: Path

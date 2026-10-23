@@ -1,0 +1,361 @@
+[
+  {
+    "id": "assessing_presentation_skills",
+    "subjectId": "assessing_presentation_skills",
+    "questionType": "Identification, Enumeration",
+    "questions": [
+      {
+        "type": "identification",
+        "question": "What study guide title covers 'Assessing Your Speaking & Presentation Skills'?",
+        "answer": "SG 5: Assessing Your Speaking & Presentation Skills"
+      },
+      {
+        "type": "identification",
+        "question": "Which self-evaluation technique involves recording practice sessions using a phone or laptop camera?",
+        "answer": "Video & Audio Self-Recording"
+      },
+      {
+        "type": "identification",
+        "question": "What self-assessment review technique breaks evaluation down into three distinct viewing passes?",
+        "answer": "The \"3-Pass\" Review Technique"
+      },
+      {
+        "type": "identification",
+        "question": "In the 3-Pass Review Technique, which pass involves watching the video muted without sound to focus on posture, hand gestures, and eye contact?",
+        "answer": "Pass 1 (Visuals Only - Muted)"
+      },
+      {
+        "type": "identification",
+        "question": "In the 3-Pass Review Technique, which pass involves listening with eyes closed to focus on voice clarity, tone, speed, and filler words?",
+        "answer": "Pass 2 (Audio Only - Eyes Closed)"
+      },
+      {
+        "type": "identification",
+        "question": "In the 3-Pass Review Technique, which pass involves watching normally to check overall delivery and slide timing?",
+        "answer": "Pass 3 (Full Playback)"
+      },
+      {
+        "type": "identification",
+        "question": "What self-assessment tool is used right after speaking to rate confidence, message clarity, and pacing on a scale of 1 to 5?",
+        "answer": "Standardized Self-Checklists"
+      },
+      {
+        "type": "identification",
+        "question": "In tech companies, what standard industry practice includes code review, design critique, or project demos?",
+        "answer": "Peer reviews"
+      },
+      {
+        "type": "identification",
+        "question": "Which rule for effective peer feedback states that critiques should focus on delivery and slides rather than the person?",
+        "answer": "Focus on Behavior, Not Character"
+      },
+      {
+        "type": "identification",
+        "question": "Which feedback model structures feedback into Praise (What went well) ➔ Critique (What needs improvement) ➔ Encouragement (Positive closing)?",
+        "answer": "Sandwich Method (or SBI Model)"
+      },
+      {
+        "type": "identification",
+        "question": "In the evaluation rubric, what level of performance for Clarity & Content is described as 'Hard to follow; uses too much jargon without explanation' (1 pt)?",
+        "answer": "Developing"
+      },
+      {
+        "type": "identification",
+        "question": "In the evaluation rubric, what level of performance for Vocal Delivery is described as 'Dynamic pitch, clear enunciation, and natural pacing' (3 pts)?",
+        "answer": "Exemplary"
+      },
+      {
+        "type": "identification",
+        "question": "In the evaluation rubric for Body Language, what performance level involves 'Strong 3-second eye contact; confident stance and natural hand gestures' (3 pts)?",
+        "answer": "Exemplary"
+      },
+      {
+        "type": "identification",
+        "question": "In the evaluation rubric for Audience Engagement, what performance level is described as 'Reads directly from slides; ignores audience' (1 pt)?",
+        "answer": "Developing"
+      },
+      {
+        "type": "identification",
+        "question": "In Step 1 of turning feedback into an action plan, what two columns are comments categorized into?",
+        "answer": "What I Do Well vs. What Needs Work"
+      },
+      {
+        "type": "identification",
+        "question": "According to the material, how many single weaknesses should a presenter pick to fix per presentation when creating a 1-page improvement plan?",
+        "answer": "ONE weakness"
+      },
+      {
+        "type": "identification",
+        "question": "What feature of Self-Assessment is defined as 'Internal awareness (checking nerves, pacing, and habits)'?",
+        "answer": "Main Focus of Self-Assessment"
+      },
+      {
+        "type": "identification",
+        "question": "What feature of Peer Feedback is defined as 'External perception (how the audience actually received the message)'?",
+        "answer": "Main Focus of Peer Feedback"
+      },
+      {
+        "type": "identification",
+        "question": "What is listed as the best tool for Self-Assessment in the practical comparison table?",
+        "answer": "Video recording + Self-Checklist"
+      },
+      {
+        "type": "identification",
+        "question": "What is listed as the best tool for Peer Feedback in the practical comparison table?",
+        "answer": "Structured Evaluation Rubric (SBI Model)"
+      },
+      {
+        "type": "identification",
+        "question": "What is the key advantage of Self-Assessment according to the comparison table?",
+        "answer": "Private, low-pressure, done anytime"
+      },
+      {
+        "type": "identification",
+        "question": "What is the key advantage of Peer Feedback according to the comparison table?",
+        "answer": "Uncovers \"blind spots\" you didn't notice yourself"
+      },
+      {
+        "type": "identification",
+        "question": "What device is called 'your best speaking coach' in Rule 1 of Skill Assessment?",
+        "answer": "Your phone camera"
+      },
+      {
+        "type": "identification",
+        "question": "What rule for skill assessment advises not trying to fix everything at once and picking one area to improve in every presentation?",
+        "answer": "Focus on Incremental Growth"
+      },
+      {
+        "type": "identification",
+        "question": "According to Rule 2 of Skill Assessment, peer feedback is free advice to help you perform better in future thesis defenses and what else?",
+        "answer": "Job interviews"
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 Learning Objectives of Study Guide 5.",
+        "answers": [
+          "Self-Assess Confidently",
+          "Give & Receive Peer Feedback",
+          "Identify Strengths & Weaknesses"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 Self-Assessment Techniques presented in the study guide.",
+        "answers": [
+          "Video & Audio Self-Recording",
+          "The \"3-Pass\" Review Technique",
+          "Standardized Self-Checklists"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 passes in the \"3-Pass\" Review Technique.",
+        "answers": [
+          "Pass 1 (Visuals Only - Muted)",
+          "Pass 2 (Audio Only - Eyes Closed)",
+          "Pass 3 (Full Playback)"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the focal areas for Pass 1 (Visuals Only - Muted) in the 3-Pass Review Technique.",
+        "answers": [
+          "Posture",
+          "Hand gestures",
+          "Eye contact"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the focal areas for Pass 2 (Audio Only - Eyes Closed) in the 3-Pass Review Technique.",
+        "answers": [
+          "Voice clarity",
+          "Tone",
+          "Speed",
+          "Filler words"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the three items rated on a scale of 1 to 5 in Standardized Self-Checklists.",
+        "answers": [
+          "Confidence",
+          "Message clarity",
+          "Pacing"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate three examples of standard tech company peer review practices mentioned in the material.",
+        "answers": [
+          "Code review",
+          "Design critique",
+          "Project demos"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 Rules for Effective Peer Feedback.",
+        "answers": [
+          "Be Specific, Not Vague",
+          "Focus on Behavior, Not Character",
+          "Use the \"Sandwich Method\" or \"SBI Model\""
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 components of the Sandwich Method / SBI Model for giving peer feedback.",
+        "answers": [
+          "Praise (What went well)",
+          "Critique (What needs improvement)",
+          "Encouragement (Positive closing)"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 4 evaluation areas in the Standard Presentation Evaluation Rubric.",
+        "answers": [
+          "Clarity & Content",
+          "Vocal Delivery",
+          "Body Language",
+          "Audience Engagement"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 performance scoring levels in the presentation evaluation rubric.",
+        "answers": [
+          "Developing (1 pt)",
+          "Competent (2 pts)",
+          "Exemplary (3 pts)"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the performance descriptors for Vocal Delivery across all three rubric levels (Developing, Competent, Exemplary).",
+        "answers": [
+          "Developing (1 pt): Monotone voice; talks too fast or uses many filler words (\"um/ah\")",
+          "Competent (2 pts): Good volume; steady pacing with occasional pauses",
+          "Exemplary (3 pts): Dynamic pitch, clear enunciation, and natural pacing"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the performance descriptors for Body Language across all three rubric levels (Developing, Competent, Exemplary).",
+        "answers": [
+          "Developing (1 pt): Avoids eye contact; stands stiffly or hides behind podium/screen",
+          "Competent (2 pts): Periodic eye contact; comfortable stance",
+          "Exemplary (3 pts): Strong 3-second eye contact; confident stance and natural hand gestures"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the performance descriptors for Audience Engagement across all three rubric levels (Developing, Competent, Exemplary).",
+        "answers": [
+          "Developing (1 pt): Reads directly from slides; ignores audience",
+          "Competent (2 pts): Keeps audience interested throughout the presentation",
+          "Exemplary (3 pts): Starts with a strong problem hook; interacts smoothly with audience"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 steps for turning feedback into an action plan.",
+        "answers": [
+          "Step 1: Categorize Your Feedback",
+          "Step 2: Recognize Common \"IT Presenter\" Traps",
+          "Step 3: Create a 1-Page Improvement Plan"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate 3 Common Strengths of IT presenters listed in the study material.",
+        "answers": [
+          "Deep technical knowledge",
+          "Good slide visuals",
+          "Logical structure"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 4 Common Weaknesses of IT presenters listed in the study material.",
+        "answers": [
+          "Talking too fast",
+          "Reading slides word-for-word",
+          "Using too much jargon",
+          "Avoiding eye contact"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 4 comparison features evaluated in the Practical Comparison table (Self-Assessment vs. Peer Feedback).",
+        "answers": [
+          "Main Focus",
+          "Best Tool",
+          "Key Advantage",
+          "Main Risk"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the main risks associated with Self-Assessment and Peer Feedback in the practical comparison table.",
+        "answers": [
+          "Self-Assessment Risk: Being too harsh or too easy on yourself",
+          "Peer Feedback Risk: Misunderstanding feedback if not given constructively"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 Rules to Remember for Skill Assessment from the Summary & Key Takeaways.",
+        "answers": [
+          "1. Record Yourself Regularly",
+          "2. Embrace Constructive Critique",
+          "3. Focus on Incremental Growth"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate three examples of filler words mentioned in the self-assessment material.",
+        "answers": [
+          "um",
+          "ah",
+          "like"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the 3 steps in the Video & Audio Self-Recording workflow diagram.",
+        "answers": [
+          "Record Presentation",
+          "Review with Checklist",
+          "Identify Blind Spots"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate three examples of specific areas to fix incrementally during presentation practice (as mentioned in Rule 3).",
+        "answers": [
+          "Eye contact",
+          "Pacing",
+          "Voice volume"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate two future presentation scenarios where peer feedback helps you perform better according to Rule 2.",
+        "answers": [
+          "Thesis defenses",
+          "Job interviews"
+        ]
+      },
+      {
+        "type": "enumeration",
+        "question": "Enumerate the performance descriptors for Clarity & Content across all three rubric levels (Developing, Competent, Exemplary).",
+        "answers": [
+          "Developing (1 pt): Hard to follow; uses too much jargon without explanation",
+          "Competent (2 pts): Mostly clear; main points are understood",
+          "Exemplary (3 pts): Exceptionally clear; uses simple analogies and direct messaging"
+        ]
+      }
+    ]
+  }
+]

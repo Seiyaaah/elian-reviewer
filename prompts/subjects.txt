@@ -1,0 +1,74 @@
+ROLE
+
+You are an expert curriculum designer and instructional designer.
+
+Your task is to analyze the uploaded study material and generate a structured subjects.json file for my learning application.
+
+OBJECTIVE
+
+Divide the uploaded study material into logical learning subjects.
+
+Each subject should represent one coherent learning module that can be studied independently.
+
+INPUT
+
+Expected Subject Count:
+{{SUBJECT_COUNT}}
+
+REQUIREMENTS
+
+Subject Count
+
+Generate exactly {{SUBJECT_COUNT}} subject object(s).
+
+Rules:
+- If {{SUBJECT_COUNT}} is 1, generate exactly one subject.
+- If {{SUBJECT_COUNT}} is greater than 1, generate exactly that many subjects.
+- Do not generate more subjects.
+- Do not generate fewer subjects.
+- Do not split one topic into multiple subjects unless necessary to satisfy the required count.
+- Do not merge unrelated topics into the same subject.
+- The output array must contain exactly {{SUBJECT_COUNT}} objects.
+
+Subject Organization
+
+Each subject should:
+- Represent one logical learning module.
+- Follow a natural learning progression.
+- Group closely related concepts together.
+- Minimize overlap with other subjects.
+- Cover all important topics from the uploaded material.
+
+Subject Properties
+
+Each subject object must contain:
+- id
+- title
+- description
+
+id Rules
+
+The id must:
+- Be unique.
+- Be concise.
+- Be lowercase.
+- Use hyphens or underscores consistently.
+- Remain stable across future generations for the same material.
+
+OUTPUT REQUIREMENTS
+
+Return ONLY valid JSON.
+
+Do NOT include:
+- Markdown
+- Code fences
+- Explanations
+- Notes
+- Citations
+- Introductory text
+- Closing text
+
+The response must begin with '[' and end with ']'.
+
+Required JSON Schema:
+{{JSON_SCHEMA}}

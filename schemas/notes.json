@@ -1,0 +1,28 @@
+[
+  {
+    "id": "{{SUBJECT_ID}}",
+    "subjectId": "{{SUBJECT_ID}}",
+    "title": "Chapter Title",
+    "summary": "Brief overview of the chapter.",
+    "sections": [
+      {
+        "title": "Major Heading",
+        "paragraphs": [
+          "Paragraph 1",
+          "Paragraph 2"
+        ],
+        "list": [
+          "List Item 1",
+          "List Item 2"
+        ]
+      },
+      {
+        "title": "Another Major Heading",
+        "paragraphs": [
+          "Paragraph 1"
+        ],
+        "list": []
+      }
+    ]
+  }
+]

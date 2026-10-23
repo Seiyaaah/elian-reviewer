@@ -1,0 +1,9 @@
+[
+  {
+    "id": "{{SUBJECT_ID}}",
+    "subjectId": "{{SUBJECT_ID}}",
+    "title": "Lesson Title",
+    "description": "One concise description of the lesson.",
+    "content": "<h2>...</h2>"
+  }
+]

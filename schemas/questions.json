@@ -1,0 +1,43 @@
+[
+  {
+    "id": "{{SUBJECT_ID}}",
+    "subjectId": "{{SUBJECT_ID}}",
+    "questionType": "{{QUESTION_TYPE}}",
+    "questions": [
+      {
+        "type": "multiple_choice",
+        "question": "",
+        "choices": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "answer": 0
+      },
+      {
+        "type": "true_false",
+        "question": "",
+        "answer": true
+      },
+      {
+        "type": "modified_true_false",
+        "question": "",
+        "answer": false,
+        "correction": ""
+      },
+      {
+        "type": "identification",
+        "question": "",
+        "answer": ""
+      },
+      {
+        "type": "enumeration",
+        "question": "",
+        "answers": [
+          ""
+        ]
+      }
+    ]
+  }
+]
