@@ -44,7 +44,6 @@ Subject Properties
 Each subject object must contain:
 - id
 - title
-- description
 
 id Rules
 

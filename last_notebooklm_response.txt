@@ -1,359 +1,398 @@
 [
   {
-    "id": "assessing_presentation_skills",
-    "subjectId": "assessing_presentation_skills",
+    "id": "hci_mvc_architecture",
+    "subjectId": "hci_mvc_architecture",
     "questionType": "Identification, Enumeration",
     "questions": [
       {
         "type": "identification",
-        "question": "What study guide title covers 'Assessing Your Speaking & Presentation Skills'?",
-        "answer": "SG 5: Assessing Your Speaking & Presentation Skills"
+        "question": "What software architecture pattern in HCI divides a system into three distinct parts: Model, View, and Controller?",
+        "answer": "Model-View-Controller (MVC)"
       },
       {
         "type": "identification",
-        "question": "Which self-evaluation technique involves recording practice sessions using a phone or laptop camera?",
-        "answer": "Video & Audio Self-Recording"
+        "question": "What is the primary purpose of using the Model-View-Controller (MVC) design pattern?",
+        "answer": "To make programs easier to build, understand, and fix"
       },
       {
         "type": "identification",
-        "question": "What self-assessment review technique breaks evaluation down into three distinct viewing passes?",
-        "answer": "The \"3-Pass\" Review Technique"
+        "question": "Which component of MVC is described as the 'brain' of the system, managing data and logic?",
+        "answer": "Model"
       },
       {
         "type": "identification",
-        "question": "In the 3-Pass Review Technique, which pass involves watching the video muted without sound to focus on posture, hand gestures, and eye contact?",
-        "answer": "Pass 1 (Visuals Only - Muted)"
+        "question": "Which component of MVC represents the 'face' of the system, showing what the user sees?",
+        "answer": "View"
       },
       {
         "type": "identification",
-        "question": "In the 3-Pass Review Technique, which pass involves listening with eyes closed to focus on voice clarity, tone, speed, and filler words?",
-        "answer": "Pass 2 (Audio Only - Eyes Closed)"
+        "question": "Which component of MVC represents the 'hands' of the system, handling what the user does?",
+        "answer": "Controller"
       },
       {
         "type": "identification",
-        "question": "In the 3-Pass Review Technique, which pass involves watching normally to check overall delivery and slide timing?",
-        "answer": "Pass 3 (Full Playback)"
+        "question": "In the restaurant analogy for MVC, what role corresponds to the Model?",
+        "answer": "Kitchen"
       },
       {
         "type": "identification",
-        "question": "What self-assessment tool is used right after speaking to rate confidence, message clarity, and pacing on a scale of 1 to 5?",
-        "answer": "Standardized Self-Checklists"
+        "question": "In the restaurant analogy for MVC, what role corresponds to the View?",
+        "answer": "Menu + food served"
       },
       {
         "type": "identification",
-        "question": "In tech companies, what standard industry practice includes code review, design critique, or project demos?",
-        "answer": "Peer reviews"
+        "question": "In the restaurant analogy for MVC, what role corresponds to the Controller?",
+        "answer": "Waiter"
       },
       {
         "type": "identification",
-        "question": "Which rule for effective peer feedback states that critiques should focus on delivery and slides rather than the person?",
-        "answer": "Focus on Behavior, Not Character"
+        "question": "Which component of MVC stores and manages the system's data and rules?",
+        "answer": "Model"
       },
       {
         "type": "identification",
-        "question": "Which feedback model structures feedback into Praise (What went well) ➔ Critique (What needs improvement) ➔ Encouragement (Positive closing)?",
-        "answer": "Sandwich Method (or SBI Model)"
+        "question": "Which MVC component updates data when something changes but does not care about how things look on screen?",
+        "answer": "Model"
       },
       {
         "type": "identification",
-        "question": "In the evaluation rubric, what level of performance for Clarity & Content is described as 'Hard to follow; uses too much jargon without explanation' (1 pt)?",
-        "answer": "Developing"
+        "question": "What happens to a program if it lacks a Model component?",
+        "answer": "The program has no knowledge to show"
       },
       {
         "type": "identification",
-        "question": "In the evaluation rubric, what level of performance for Vocal Delivery is described as 'Dynamic pitch, clear enunciation, and natural pacing' (3 pts)?",
-        "answer": "Exemplary"
+        "question": "Which component of MVC serves as the visual representation of the data?",
+        "answer": "View"
       },
       {
         "type": "identification",
-        "question": "In the evaluation rubric for Body Language, what performance level involves 'Strong 3-second eye contact; confident stance and natural hand gestures' (3 pts)?",
-        "answer": "Exemplary"
+        "question": "Which component of MVC changes automatically when the Model updates?",
+        "answer": "View"
       },
       {
         "type": "identification",
-        "question": "In the evaluation rubric for Audience Engagement, what performance level is described as 'Reads directly from slides; ignores audience' (1 pt)?",
-        "answer": "Developing"
+        "question": "What problem occurs if a program does not have a View component?",
+        "answer": "Users can't see or interact with the data"
       },
       {
         "type": "identification",
-        "question": "In Step 1 of turning feedback into an action plan, what two columns are comments categorized into?",
-        "answer": "What I Do Well vs. What Needs Work"
+        "question": "Which MVC component acts as a bridge between the user and the system?",
+        "answer": "Controller"
       },
       {
         "type": "identification",
-        "question": "According to the material, how many single weaknesses should a presenter pick to fix per presentation when creating a 1-page improvement plan?",
-        "answer": "ONE weakness"
+        "question": "Which component of MVC takes input from the user (such as clicks, taps, voice, or typing)?",
+        "answer": "Controller"
       },
       {
         "type": "identification",
-        "question": "What feature of Self-Assessment is defined as 'Internal awareness (checking nerves, pacing, and habits)'?",
-        "answer": "Main Focus of Self-Assessment"
+        "question": "Which component of MVC decides what action to perform and tells the Model or View what to do?",
+        "answer": "Controller"
       },
       {
         "type": "identification",
-        "question": "What feature of Peer Feedback is defined as 'External perception (how the audience actually received the message)'?",
-        "answer": "Main Focus of Peer Feedback"
+        "question": "What limitation occurs if a system does not have a Controller?",
+        "answer": "The user cannot communicate with the system"
       },
       {
         "type": "identification",
-        "question": "What is listed as the best tool for Self-Assessment in the practical comparison table?",
-        "answer": "Video recording + Self-Checklist"
+        "question": "In the four-step execution flow of MVC, what component initially handles the user's input (click, tap, or type)?",
+        "answer": "Controller"
       },
       {
         "type": "identification",
-        "question": "What is listed as the best tool for Peer Feedback in the practical comparison table?",
-        "answer": "Structured Evaluation Rubric (SBI Model)"
+        "question": "In the MVC interaction flow, what component does the Controller update immediately after receiving user input?",
+        "answer": "Model"
       },
       {
         "type": "identification",
-        "question": "What is the key advantage of Self-Assessment according to the comparison table?",
-        "answer": "Private, low-pressure, done anytime"
+        "question": "In the MVC flow, which component notifies the View when data changes?",
+        "answer": "Model"
       },
       {
         "type": "identification",
-        "question": "What is the key advantage of Peer Feedback according to the comparison table?",
-        "answer": "Uncovers \"blind spots\" you didn't notice yourself"
+        "question": "In the final step of the MVC interaction flow, which component presents the updated information to the user?",
+        "answer": "View"
       },
       {
         "type": "identification",
-        "question": "What device is called 'your best speaking coach' in Rule 1 of Skill Assessment?",
-        "answer": "Your phone camera"
+        "question": "Which benefit of MVC refers to giving each part of the system its own specific job?",
+        "answer": "Separation of roles"
       },
       {
         "type": "identification",
-        "question": "What rule for skill assessment advises not trying to fix everything at once and picking one area to improve in every presentation?",
-        "answer": "Focus on Incremental Growth"
+        "question": "Which benefit of MVC allows web designers to work on the visual aspect while programmers build data logic?",
+        "answer": "Easy to maintain"
       },
       {
         "type": "identification",
-        "question": "According to Rule 2 of Skill Assessment, peer feedback is free advice to help you perform better in future thesis defenses and what else?",
-        "answer": "Job interviews"
+        "question": "Which benefit of MVC allows one Model component to work with multiple different Views?",
+        "answer": "Reusability"
+      },
+      {
+        "type": "identification",
+        "question": "Which benefit of MVC ensures that modifications made in one part of the system do not break the other parts?",
+        "answer": "Flexibility"
+      },
+      {
+        "type": "identification",
+        "question": "In the human body analogy for MVC, what part represents the Model?",
+        "answer": "Brain"
+      },
+      {
+        "type": "identification",
+        "question": "In the human body analogy for MVC, what part represents the Controller?",
+        "answer": "Hands"
+      },
+      {
+        "type": "identification",
+        "question": "In the human body analogy for MVC, what part represents the View?",
+        "answer": "Face"
+      },
+      {
+        "type": "identification",
+        "question": "In the music app analogy for MVC, what component does the song data represent?",
+        "answer": "Model"
+      },
+      {
+        "type": "identification",
+        "question": "In the music app analogy for MVC, what component does the playlist screen represent?",
+        "answer": "View"
+      },
+      {
+        "type": "identification",
+        "question": "In the music app analogy for MVC, what component does the play button represent?",
+        "answer": "Controller"
+      },
+      {
+        "type": "identification",
+        "question": "What overall working concept is MVC compared to because each part has its own responsibility to make the system run smoothly?",
+        "answer": "Teamwork"
+      },
+      {
+        "type": "identification",
+        "question": "Where is food prepared in the restaurant analogy, representing data and logic in the Model?",
+        "answer": "Kitchen"
+      },
+      {
+        "type": "identification",
+        "question": "What person delivers orders between the kitchen and the customer in the restaurant analogy for the Controller?",
+        "answer": "Waiter"
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 Learning Objectives of Study Guide 5.",
+        "question": "Enumerate the three core components of the MVC design pattern.",
         "answers": [
-          "Self-Assess Confidently",
-          "Give & Receive Peer Feedback",
-          "Identify Strengths & Weaknesses"
+          "Model",
+          "View",
+          "Controller"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 Self-Assessment Techniques presented in the study guide.",
+        "question": "Enumerate the short nicknames describing the roles of Model, View, and Controller in order.",
         "answers": [
-          "Video & Audio Self-Recording",
-          "The \"3-Pass\" Review Technique",
-          "Standardized Self-Checklists"
+          "The brain (data & logic)",
+          "The face (what you see)",
+          "The hands (what you do)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 passes in the \"3-Pass\" Review Technique.",
+        "question": "Enumerate the three goals stated for why MVC makes programs easier.",
         "answers": [
-          "Pass 1 (Visuals Only - Muted)",
-          "Pass 2 (Audio Only - Eyes Closed)",
-          "Pass 3 (Full Playback)"
+          "Build",
+          "Understand",
+          "Fix"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the focal areas for Pass 1 (Visuals Only - Muted) in the 3-Pass Review Technique.",
+        "question": "Enumerate the three elements of the restaurant analogy and their corresponding MVC parts.",
         "answers": [
-          "Posture",
-          "Hand gestures",
-          "Eye contact"
+          "Kitchen (Model)",
+          "Menu + food served (View)",
+          "Waiter (Controller)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the focal areas for Pass 2 (Audio Only - Eyes Closed) in the 3-Pass Review Technique.",
+        "question": "Enumerate three functions or characteristics of the Model component.",
         "answers": [
-          "Voice clarity",
-          "Tone",
-          "Speed",
-          "Filler words"
+          "Knows everything about the system's content",
+          "Updates data when something changes",
+          "Does not care about how things look on screen"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the three items rated on a scale of 1 to 5 in Standardized Self-Checklists.",
+        "question": "Enumerate two functions of the View component.",
         "answers": [
-          "Confidence",
-          "Message clarity",
-          "Pacing"
+          "Shows information to the user in a friendly way",
+          "Changes automatically when the Model updates"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three examples of standard tech company peer review practices mentioned in the material.",
+        "question": "Enumerate three functions of the Controller component.",
         "answers": [
-          "Code review",
-          "Design critique",
-          "Project demos"
+          "Takes input from the user (clicks, taps, voice, typing)",
+          "Decides what action to perform",
+          "Tells the Model or View what to do"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 Rules for Effective Peer Feedback.",
+        "question": "Enumerate four user input examples handled by the Controller.",
         "answers": [
-          "Be Specific, Not Vague",
-          "Focus on Behavior, Not Character",
-          "Use the \"Sandwich Method\" or \"SBI Model\""
+          "Clicks",
+          "Taps",
+          "Voice",
+          "Typing"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 components of the Sandwich Method / SBI Model for giving peer feedback.",
+        "question": "Enumerate the four steps of how MVC works together in order.",
         "answers": [
-          "Praise (What went well)",
-          "Critique (What needs improvement)",
-          "Encouragement (Positive closing)"
+          "User does something (click, tap, type) -> handled by Controller",
+          "Controller updates the Model (changes data)",
+          "Model notifies the View of changes",
+          "View shows the updated information to the User"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 4 evaluation areas in the Standard Presentation Evaluation Rubric.",
+        "question": "Enumerate four main benefits of using the MVC design pattern.",
         "answers": [
-          "Clarity & Content",
-          "Vocal Delivery",
-          "Body Language",
-          "Audience Engagement"
+          "Separation of roles",
+          "Easy to maintain",
+          "Reusability",
+          "Flexibility"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 performance scoring levels in the presentation evaluation rubric.",
+        "question": "Enumerate the two specialist roles mentioned in 'Easy to maintain' that can work independently on View and Model.",
         "answers": [
-          "Developing (1 pt)",
-          "Competent (2 pts)",
-          "Exemplary (3 pts)"
+          "Designers (work on View)",
+          "Programmers (work on Model)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the performance descriptors for Vocal Delivery across all three rubric levels (Developing, Competent, Exemplary).",
+        "question": "Enumerate the three body parts used in the human body analogy for MVC.",
         "answers": [
-          "Developing (1 pt): Monotone voice; talks too fast or uses many filler words (\"um/ah\")",
-          "Competent (2 pts): Good volume; steady pacing with occasional pauses",
-          "Exemplary (3 pts): Dynamic pitch, clear enunciation, and natural pacing"
+          "Brain (Model)",
+          "Face (View)",
+          "Hands (Controller)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the performance descriptors for Body Language across all three rubric levels (Developing, Competent, Exemplary).",
+        "question": "Enumerate the three elements of a music app and their corresponding MVC components.",
         "answers": [
-          "Developing (1 pt): Avoids eye contact; stands stiffly or hides behind podium/screen",
-          "Competent (2 pts): Periodic eye contact; comfortable stance",
-          "Exemplary (3 pts): Strong 3-second eye contact; confident stance and natural hand gestures"
+          "Song data (Model)",
+          "Playlist screen (View)",
+          "Play button (Controller)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the performance descriptors for Audience Engagement across all three rubric levels (Developing, Competent, Exemplary).",
+        "question": "Enumerate what missing each component causes: (1) Without Model, (2) Without View, (3) Without Controller.",
         "answers": [
-          "Developing (1 pt): Reads directly from slides; ignores audience",
-          "Competent (2 pts): Keeps audience interested throughout the presentation",
-          "Exemplary (3 pts): Starts with a strong problem hook; interacts smoothly with audience"
+          "Without Model: the program has no knowledge to show",
+          "Without View: users can't see or interact with the data",
+          "Without Controller: the user cannot communicate with the system"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 steps for turning feedback into an action plan.",
+        "question": "Enumerate two areas of computer science where MVC is explicitly applied as a design pattern.",
         "answers": [
-          "Step 1: Categorize Your Feedback",
-          "Step 2: Recognize Common \"IT Presenter\" Traps",
-          "Step 3: Create a 1-Page Improvement Plan"
+          "Human-Computer Interaction (HCI)",
+          "Software design"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate 3 Common Strengths of IT presenters listed in the study material.",
+        "question": "Enumerate the two things customer sees in the restaurant analogy representing the View.",
         "answers": [
-          "Deep technical knowledge",
-          "Good slide visuals",
-          "Logical structure"
+          "Menu",
+          "Food served"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 4 Common Weaknesses of IT presenters listed in the study material.",
+        "question": "Enumerate two elements stored and managed by the Model.",
         "answers": [
-          "Talking too fast",
-          "Reading slides word-for-word",
-          "Using too much jargon",
-          "Avoiding eye contact"
+          "Data",
+          "Rules"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 4 comparison features evaluated in the Practical Comparison table (Self-Assessment vs. Peer Feedback).",
+        "question": "Enumerate the two components that the Controller can instruct or tell what to do.",
         "answers": [
-          "Main Focus",
-          "Best Tool",
-          "Key Advantage",
-          "Main Risk"
+          "Model",
+          "View"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the main risks associated with Self-Assessment and Peer Feedback in the practical comparison table.",
+        "question": "Enumerate the two components connected by the Controller acting as a bridge.",
         "answers": [
-          "Self-Assessment Risk: Being too harsh or too easy on yourself",
-          "Peer Feedback Risk: Misunderstanding feedback if not given constructively"
+          "User",
+          "System"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 Rules to Remember for Skill Assessment from the Summary & Key Takeaways.",
+        "question": "Enumerate two characteristics of the View's display style.",
         "answers": [
-          "1. Record Yourself Regularly",
-          "2. Embrace Constructive Critique",
-          "3. Focus on Incremental Growth"
+          "Visual representation of data",
+          "Shows information in a friendly way"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three examples of filler words mentioned in the self-assessment material.",
+        "question": "Enumerate two aspects handled by the Model as the brain of the system.",
         "answers": [
-          "um",
-          "ah",
-          "like"
+          "Data",
+          "Logic"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the 3 steps in the Video & Audio Self-Recording workflow diagram.",
+        "question": "Enumerate three analogies used in the chapter to explain MVC.",
         "answers": [
-          "Record Presentation",
-          "Review with Checklist",
-          "Identify Blind Spots"
+          "Restaurant",
+          "Human body",
+          "Music app"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate three examples of specific areas to fix incrementally during presentation practice (as mentioned in Rule 3).",
+        "question": "Enumerate two key characteristics of teamwork highlighted in the MVC summary.",
         "answers": [
-          "Eye contact",
-          "Pacing",
-          "Voice volume"
+          "Each part has its own responsibility",
+          "Together they make the system run smoothly"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate two future presentation scenarios where peer feedback helps you perform better according to Rule 2.",
+        "question": "Enumerate the two destinations the waiter in the restaurant analogy delivers orders between.",
         "answers": [
-          "Thesis defenses",
-          "Job interviews"
+          "Kitchen",
+          "You (Customer)"
         ]
       },
       {
         "type": "enumeration",
-        "question": "Enumerate the performance descriptors for Clarity & Content across all three rubric levels (Developing, Competent, Exemplary).",
+        "question": "Enumerate the two components involved when the Controller tells them what to do after deciding an action.",
         "answers": [
-          "Developing (1 pt): Hard to follow; uses too much jargon without explanation",
-          "Competent (2 pts): Mostly clear; main points are understood",
-          "Exemplary (3 pts): Exceptionally clear; uses simple analogies and direct messaging"
+          "Model",
+          "View"
         ]
       }
     ]
